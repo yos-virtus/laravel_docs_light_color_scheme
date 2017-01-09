@@ -3,9 +3,9 @@ It's a Sublime Text Editor 3 color scheme based on [Laravel Framework Official D
 
 ![The laravel docs light](https://github.com/yos-virtus/laravel_docs_light_color_scheme/blob/master/screenshots/sh_laravel_5_docs_1.jpg)
 
-![The laravel docs light](https://github.com/yos-virtus/laravel_docs_light_color_scheme/blob/master/screenshots/sh_laravel_5_docs_1.jpg)
+![The laravel docs light](https://github.com/yos-virtus/laravel_docs_light_color_scheme/blob/master/screenshots/sh_laravel_5_docs_2.jpg)
 
-##Instalation
+##Installation
 
 ###Via Package Controll
 1. Open command pallete by pressing cmd/ctrl + shift + p.
