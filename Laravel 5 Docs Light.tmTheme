@@ -65,7 +65,7 @@
 				<key>background</key>
 				<string>#f9f9f9</string>
 				<key>foreground</key>
-				<string>#07a</string>
+				<string>#333</string>
 			</dict>
 		</dict>
 		<dict>
@@ -437,15 +437,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>html, xml attributes</string>
+			<string>CSS id attribute</string>
 			<key>scope</key>
-			<string>source.css entity.other.attribute-name</string>
+			<string>source.css entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#2E7D32</string>
+				<string>#07a</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS id attribute</string>
+			<key>scope</key>
+			<string>source.css entity.other.attribute-name.class</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#07a</string>
 			</dict>
 		</dict>
 		<dict>
