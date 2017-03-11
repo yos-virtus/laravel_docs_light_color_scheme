@@ -20,7 +20,7 @@
 				<key>caret</key>
 				<string>#000</string>
 				<key>foreground</key>
-				<string>#a21</string>
+				<string>#333333</string>
 				<key>invisibles</key>
 				<string>#DBD7D7</string>
 				<key>lineHighlight</key>
