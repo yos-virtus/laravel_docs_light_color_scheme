@@ -20,7 +20,7 @@
 				<key>caret</key>
 				<string>#000</string>
 				<key>foreground</key>
-				<string>#000</string>
+				<string>#a21</string>
 				<key>invisibles</key>
 				<string>#DBD7D7</string>
 				<key>lineHighlight</key>
@@ -44,13 +44,52 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Source CSS</string>
+			<key>scope</key>
+			<string>source.css</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#f9f9f9</string>
+				<key>foreground</key>
+				<string>#333</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS tag punctuation</string>
+			<key>scope</key>
+			<string>entity.name.tag.css</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#f9f9f9</string>
+				<key>foreground</key>
+				<string>#07a</string>
+			</dict>
+		</dict>
+		<dict>
+            <key>name</key>
+            <string>HTML: Tag Punctuation</string>
+            <key>scope</key>
+            <string>punctuation.definition.tag</string>
+            <key>settings</key>
+            <dict>
+                <key>fontStyle</key>
+                <string>bold</string>
+                <key>foreground</key>
+                <string>#999999</string>
+            </dict>
+        </dict>
+		<dict>
+			<key>name</key>
 			<string>Plain text</string>
 			<key>scope</key>
 			<string>text.html, text.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#555555</string>
+				<string>#333333</string>
 			</dict>
 		</dict>
 		<dict>
@@ -103,6 +142,19 @@
 				<string>bold</string>
 				<key>foreground</key>
 				<string>#0077AA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS keywords</string>
+			<key>scope</key>
+			<string>source.css keyword</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#DA564A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -335,6 +387,19 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Import and used class names</string>
+			<key>scope</key>
+			<string>source.css support.class,source.css support.type</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>foreground</key>
+				<string>#4EA1DF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>String.regexp</string>
 			<key>scope</key>
 			<string>string.regexp</string>
@@ -352,7 +417,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string> bold</string>
 				<key>foreground</key>
 				<string>#DA564A</string>
 			</dict>
@@ -361,7 +426,7 @@
 			<key>name</key>
 			<string>html, xml attributes</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class</string>
+			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -372,9 +437,48 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>html, xml attributes</string>
+			<key>scope</key>
+			<string>source.css entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#2E7D32</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Constant</string>
 			<key>scope</key>
 			<string>constant.character, constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS Constant</string>
+			<key>scope</key>
+			<string>source.css constant.character, source.css constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#DA564A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP: Constant</string>
+			<key>scope</key>
+			<string>constant.character.php, constant.other.php</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -428,7 +532,20 @@
 				<key>fontStyle</key>
 				<string>bold</string>
 				<key>foreground</key>
-				<string>#333333</string>
+				<string>#999999</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Section </string>
+			<key>scope</key>
+			<string>source.css punctuation.section</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#999999</string>
 			</dict>
 		</dict>
 	</array>
