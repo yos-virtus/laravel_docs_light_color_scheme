@@ -1,5 +1,5 @@
 # Laravel 5 Docs Light Color Theme
-It's a Sublime Text Editor 3 color scheme based on [Laravel Framework Official Docs] (http://laravel.com) color highlighting scheme.
+It's a Sublime Text Editor 3 color scheme based on [Laravel Framework Official Docs](http://laravel.com) color highlighting scheme.
 
 ![The laravel docs light](https://github.com/yos-virtus/laravel_docs_light_color_scheme/raw/master/screenshots/sh_laravel_5_docs_1.png)
 
